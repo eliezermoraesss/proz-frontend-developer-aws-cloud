@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans:wght@300;400;700&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Boogaloo', open-sans;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body{
+    background-color: #F6F1E9;
+}
+
+header {
+    height: 5rem;
+    width: 100%;
+    background-color: #4F200D;
+    box-shadow: 0 2px 6px 2px #3d322d;
+    position: fixed;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    
+}
+.nav-bar .logo img{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.nav-bar .search-bar input{
+    display: flex;
+    border: #4F200D;
+    margin-left: -150px;
+    margin-top: 1.3rem;
+    border-radius: 20px;
+    height: 2.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+
+.nav-bar .profile-button{
+    background-color: none;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+   
+}
+
+.nav-bar .profile-button i{
+    border: none;
+    color: #fff;
+    background-color: none;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.nav-bar .profile-button i:hover {
+    color: #eef112;
+}
+
+.container input{
+    height: 150px;
+    width: 700px;
+    margin-top: 110px;
+    margin-left: 320px;
+    background-color: #e9e8e8;
+    text-align: center;
+    font-size: 25px;
+    border: solid 3px #4F200D;
+    border-radius: 20px;
+    transition: .5s;
+    
+}
+
+.container input:hover{
+    background-color: #fff;
+}
+
+.elemento .btn{
+    display: inline-block;
+    flex-wrap: nowrap;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    background-color: #4F200D;
+    border-radius: 50%;
+
+}
+
+.elemento .btn:nth-child(1){
+    margin-left: 900px;
+}
+
+.elemento .btn:hover{
+    background-color: #7c3b21;
+}
+
+.elemento .btn .icon{
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+.elemento .btn .icon i{
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.postagem button{
+    height: 30px;
+    width: 50px;
+    margin-top: 270px;
+    margin-left: 900px;
+    position: absolute;
+    background-color: #e7e435;
+    border: solid 2px #4F200D;
+    border-radius: 10px;
+}
+
+.postagem button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.postagem button:hover{
+    background-color: #eef112;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .profile-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-button .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+
+
+}
+
+
+
+

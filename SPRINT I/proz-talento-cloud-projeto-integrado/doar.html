@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Doação</title>
+  </head>
+
+  <body>
+    <a href="index.html">Voltar ao início</a>
+    <header>
+      <img src="./img/Logo1.png" alt="Logo ConnectPet marrom" />
+    </header>
+
+    <section class="apresentacao__conteudo">
+      <h1 class="apresentacao__conteudo__titulo">
+        Maravilha! Nos apresente nosso novo amiguinho(a)!
+      </h1>
+      <div>
+        <label for="nome">Nome do pet:</label>
+        <input type="text" name="nome" required />
+        <br />
+      </div>
+      <div>
+        <label for="idade">Idade do pet:</label>
+        <input type="number" name="idade" required />
+        <br />
+      </div>
+      <div>
+        <label for="nome">Espécie:</label>
+        <input type="text" name="nome" required />
+        <br />
+      </div>
+      <div>
+        <label for="nome">Raça:</label>
+        <input type="text" name="nome" required />
+        <br />
+      </div>
+      <div>
+        <label for="nome">Cidade/Estado:</label>
+        <input type="text" name="nome" required />
+        <br />
+      </div>
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero">
+        <option value="macho">Macho</option>
+        <option value="femea">Fêmea</option>
+      </select>
+      <div>
+        <label for="mensagem">Descrição do pet:</label>
+        <br/>
+        <textarea rows="8" name="msg"></textarea>
+    </div>
+    <label for="imagem">Adicione imagens à publicação:</label>
+<input type="file" id="imagem" name="imagem" accept="image/*" />
+    </section>
+
+    <footer class="rodape">
+      <p>&copy; ConnectPet 2023</p>
+    </footer>
+  </body>
+</html>

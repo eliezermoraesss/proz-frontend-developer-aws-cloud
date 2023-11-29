@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans:wght@300;400;700&family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Boogaloo', open-sans;
+    z-index: 2;
+}
+
+body{
+    height: 900vh;
+}
+
+nav.menu-lateral{
+    width: 55px;
+    height: 75%;
+    background-color: #4F200D;
+    padding: 40px 0 40px 0;
+    box-shadow: 0 2px 6px 4px #3d322d;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 0 50px 50px 0;
+}
+
+nav.menu-lateral:hover{
+    width: 250px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .4s;
+}
+
+ul li.item-menu:hover{
+    background: #ecc92b;
+}
+
+ul li.item-menu.ativo:hover a .txt-link{
+    color: #fff;
+}
+
+ul li.item-menu.ativo:hover a .icon > i{
+    color: #fff;
+}
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .4s
+}
+
+nav.menu-lateral:hover .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px; 
+    transition: .4s
+}
+
+ul li.item-menu.ativo a .icon > i{
+    color: #ecc92b;   
+}
+
+ul li.item-menu.ativo a .txt-link{
+    color: #ecc92b;
+}

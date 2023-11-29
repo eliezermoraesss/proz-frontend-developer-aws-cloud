@@ -1,0 +1,117 @@
+PROZ TALENTO CLOUD
+
+AULA DO DIA 30/08/2023 ====================================================================================================
+
+1. O app deve registrar as receitas, despesas e possíveis investimentos, gerando um relatório para o usuário.
+2. O aplicativo informa o extrato bancário e também o valor em carteira, quando em dinheiro.
+3. Após ocorrer um gasto, o app calcula e gera o valor final, o saldo final.
+
+DECLARACAO DAS VARIAVEIS
+soma_atual_das_notas = real
+nota_do_filme = real
+numero_de_votacao = inteiro
+media_das_notas = real
+comentario_do_filme = caractere
+classificacao_indicativa = boolean
+
+ENTRADA
+1. Qual nota você dá para este filme?
+nota_do_filme = 7.0
+2. Comente sobre o filme!
+comentario_do_filme = "O filme foi chocante!"
+3. O filme é indicado para crianças?
+classificacao_indicativa = NÃO
+
+PROCESSAMENTO
+1. media_das_notas = (soma_atual_das_notas + nota_do_filme) / numero_de_votacao
+
+SAÍDA
+1. media_das_notas
+2. comentario_do_filme
+3. classificacao_indicativa
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+Var
+nome = caractere
+endereco = caractere
+cidade = caractere
+cpf = caractere
+rg = caractere
+
+Inicio
+escreva("Qual é o seu nome? ");
+leia(nome);
+escreva("Qual é o seu endereço? ");
+leia(endereco);
+escreva("Qual é a sua cidade? ");
+leia(cidade);
+escreva("Qual é o seu CPF? ");
+leia(cpf);
+escreva("Qual é o seu RG? ");
+leia(rg);
+
+escreva("O seu nome é ", nome);
+escreva("O seu endereço é ", endereço);
+escreva("A sua cidade é ", cidade);
+escreva("O seu CPF é ", cpf);
+escreva("O seu RG é ", rg);
+FimAlgoritomo
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+Etapa 01
+
+nome = caractere
+cpf = caractere
+rg = caractere
+altura = real
+endereco = caractere
+
+
+Etapa 02
+
+nome = "Eliezer Moraes Silva"
+cpf = "12345678900"
+rg = "987654321"
+altura = 1.83
+endereco = "Rua Eli, 7777, Jardim Paz, Mogi-Mirim/SP"
+
+
+Etapa 03
+
+nome <- "Eliezer Moraes Silva"
+cpf <- "12345678900"
+rg <- "987654321"
+altura <- 1.83
+endereco <- "Rua Eli, 7777, Jardim Paz, Mogi-Mirim/SP"
+
+Algoritmo "RESTAURANTE COMOMUITO"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jeice
+// Descrição   : O algoritmo faz perguntas para os clientes e os encaminha para
+// suas áreas corretas.
+// Autor(a)    : Eliezer Moraes Silva
+// Data atual  : 01/09/2023
+Var
+numero_de_pessoa: inteiro
+pessoa_fumante: caractere
+pessoa_com_animal: caractere
+
+Inicio
+ESCREVA("Vocês estão em quantas pessoas? ")
+ LEIA(numero_de_pessoa)
+ESCREVA("Você é fumante? S/N")
+ LEIA(pessoa_fumante)
+ESCREVA("Você está com animal de estimação? S/N")
+ LEIA(pessoa_com_animal)
+SE (pessoa_fumante = "S" OU pessoa_com_animal = "S") ENTAO
+ ESCREVA("Por favor, fumantes ou pessoas com animais de estimação, dirijam-se à área externa.")
+FIMSE
+SE (numero_de_pessoa >= 5) ENTAO
+ ESCREVA("Por favor, dirija ao 1° andar, não podemos juntar mesas no térreo.")
+ SENAO
+  ESCREVA("Por favor, dirija-se ao térreo.")
+FIMSE
+Fimalgoritmo
